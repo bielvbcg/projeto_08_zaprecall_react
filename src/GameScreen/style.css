@@ -1,0 +1,90 @@
+.gameScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative
+}
+
+.gameScreen .miniLogo {
+  position: fixed;
+  top: 26px;
+  left: 26px;
+}
+
+.gameScreen .flashCard {
+  width: 392px;
+  height: 576px;
+
+  margin-top: 3em;
+  padding: 19px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.gameScreen .flashCard .cardNumber {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.gameScreen .flashCard h1 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.gameScreen .flashCard p {
+  width: 294px;
+
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.gameScreen .flashCard ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 16px;
+}
+
+.gameScreen .flashCard ul li {
+  width: 65px;
+  height: 48px;
+
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+}
+
+.gameScreen .flashCard ul .aprendiAgora {
+  border: 3px solid black;
+}
+
+.gameScreen .flashCard ul .naoLembrei {
+  border: 3px solid #F74848;
+}
+
+.gameScreen .flashCard ul .comEsforço {
+  border: 3px solid #62DB38;
+}
+
+.gameScreen .flashCard ul .zap {
+  border: 3px solid #FFEF61;
+}
