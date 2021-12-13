@@ -1,0 +1,10 @@
+.FailureScreen {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+
+.FailureScreen .sucesso {
+  display: flex;
+}

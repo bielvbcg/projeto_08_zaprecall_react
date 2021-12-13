@@ -26,6 +26,24 @@
 
   border: 1px solid black;
   border-radius: 12px;
+
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.gameScreen .flashCard.cartaFrente {
+  justify-content: center;
+}
+
+.gameScreen .flashCard.cartaFrente h1 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.gameScreen .flashCard .turn {
+  position: absolute;
+  right: 16px;
+  bottom: 20px;
 }
 
 .gameScreen .flashCard .cardNumber {
@@ -48,6 +66,7 @@
 
   font-size: 16px;
   line-height: 19px;
+  text-align: center;
 }
 
 .gameScreen .flashCard ul {
@@ -87,4 +106,24 @@
 
 .gameScreen .flashCard ul .zap {
   border: 3px solid #FFEF61;
+}
+
+.gameScreen .flashCard.aprendiAgora {
+  border: 5px solid black;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.gameScreen .flashCard.naoLembrei {
+  border: 5px solid #F74848;
+  box-shadow: 0px 8px 24px rgba(246, 72, 72, 0.12);
+}
+
+.gameScreen .flashCard.comEsforço {
+  border: 5px solid #62DB38;
+  box-shadow: 0px 8px 24px rgba(98, 219, 56, 0.12);
+}
+
+.gameScreen .flashCard.zap {
+  border: 5px solid #FFEF61;
+  box-shadow: 0px 8px 24px rgba(255, 239, 97, 0.12);
 }
